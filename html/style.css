@@ -1,0 +1,60 @@
+div.example {
+  border-color: black;
+  border-style: none none solid none;
+  width: 100%;
+  margin:0 0 20px 0;
+  padding:0;
+  border:0;
+  display: flex;
+}
+div.block {
+  flex: 1 1 1%;
+  width: 40%;
+  height: 100%;
+  margin:0;
+  padding:0;
+  border:0;
+}
+h3 {
+  margin:0;
+  padding:0;
+  border:0;
+}
+.img{
+  float:left;
+}
+/* .img {
+  width:200px;
+  height:200px;
+  background-size:cover;
+  display:inline-block;
+  margin:4px;
+  position:relative;
+}
+
+.img *{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index:2;
+}*/
+
+/* .img div{
+  position: absolute;
+  z-index:1;
+  color:#fff;
+  text-align:center;
+  padding:8px;
+  padding-top:35%;
+  background-color:rgba(0,0,0,0.5);
+  border-radius:16px;
+  opacity:0;
+} */
+/*
+.img div:target{
+  opacity:1;
+  padding-top:40%;
+  z-index:3;
+}
